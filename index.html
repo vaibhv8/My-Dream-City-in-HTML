@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dream City in HTML </title>
+</head>
+<body> 
+    <thead>
+         <h1>Atlantica</h1>
+         <p>The City of Ocean Dreams!</p>
+         <nav>
+            <a href="#">Description</a> |
+            <a href="#">Attractions</a> |
+            <a href="#">Statistics</a>  |
+            <a href="#">Feedback</a>    |
+            <a href="#">Quotes</a>      |
+            <a href="#">Contact</a>
+         </nav>
+    </thead>
+    <Section>
+        <h2>Discover Atlantica</h2>
+        <img src="./Atlantica.jpg" alt="atlantica img" width="600" height="400"/>
+        <p>Atlantica, the City where the horizon merges the sky with the ocean, offering dreams a canvas as vast as the sea.</p>
+        <h2>Attractions</h2>
+        <ol>
+            <li>Atlantis Tower</li>
+            <li>Deep Sea Museam</li>
+            <li>The Oceanic Bridge</li>
+        </ol>
+        <ul>
+            <li>Merman's Street</li>
+            <li>Neptune Diner</li>
+            <li>Atlantica Beaches</li>
+            <ul>
+                <li>North Beach</li>
+                <li>Reef Bay</li>
+                <li>Mermaid Cove</li>
+            </ul>
+        </ul> 
+        <h2>City Statistics</h2>
+                              <!--                     Table                 -->
+        <table border="1">
+            <tr>
+              <th>Attribute</th>
+              <th>Value</th>
+            </tr>
+            <tr>
+                <td>Population</td>
+                <td>5 Milliom</td>
+            </tr>
+            <tr>
+                <td>Landmark</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Park</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>School</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Beaches</td>
+                <td>7</td>
+            </tr>
+        </table>
+        <h2>Feedback</h2>
+        <form>
+                            <!--                         feedback form            -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" minlength="3" maxlength="50" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" minlength="3" maxlength="50" required><br><br>
+    
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+            
+            <label for="favattrac">Favourite Attraction:</label>
+            <select id="faveattrac" name="faveattrac">
+                <option value="atlantis">Atlantis Tower</option>
+                <option value="deep">Deep Sea Museam</option>
+                <option value="the">The Oceanic Bridge</option>
+            </select><br><br>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="30" required></textarea><br>
+            <label for="checkbox"></label><br>Newsletter
+                <input type="checkbox" name="checkbox" value="checkbox"> Suscribe to our newsletter
+            </label><br>
+            <input type="submit" value="Submit">   
+        </form>
+        <h2>What citizens Say</h2>
+        <p>"Nothing beats here!"- Alex</p></span>
+        <p>"Atlantic beaches are paradise on earth."- Isabella</p>
+    </Section> 
+    <tfoot>
+        <h2>Contact Us</h2>
+        <p> Atlantica Tourism office 100 Ocean Drive, Atlantica
+        <br><a href="#">Email: info@atlantica.com</a> <br>Phone No: 123-456-789<br></p>
+
+        @2023 Atlantica Tourism. Drive into Dream!
+    </tfoot>    
+</body>
+</html>
